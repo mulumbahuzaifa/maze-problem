@@ -1,0 +1,56 @@
+.game-board {
+  display: grid;
+  width: 670px;
+  height: 520px;
+  margin: auto;
+}
+.tile {
+  border-style: solid;
+}
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  width: 800px;
+  height: 800px;
+  background-color: blue;
+}
+
+#chessboard .tile {
+  width: 100px;
+  height: 100px;
+}
+
+#chessboard .black-tile {
+  background-color: #779556;
+}
+
+#chessboard .white-tile {
+  background-color: #7c7c7c;
+}
+.boardContainer {
+  margin-top: 5%;
+  text-align: center;
+  background-color: #3f6849;
+}
+
+p {
+  margin-top: 1px;
+}
+.container {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid black;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
